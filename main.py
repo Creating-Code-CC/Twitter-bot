@@ -8,14 +8,16 @@ time.sleep(2)
 
 # Locate first input element and send text.
 username = driver.find_element(By.TAG_NAME, "input")
-username.send_keys('JFlecco')
+'''Change username to your twitter username'''
+username.send_keys('username')
 all_buttons = driver.find_elements(By.XPATH, "//div[@role='button']")
 all_buttons[-2].click()
 time.sleep(2)
 
 # Locate password field and send text.
 password = driver.find_element(By.XPATH, "//input[@type='password']")
-password.send_keys("VbotGotcha!@")
+'''Change password to your password'''
+password.send_keys("password")
 time.sleep(2)
 
 # Finally, log in.
