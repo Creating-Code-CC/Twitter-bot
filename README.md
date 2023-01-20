@@ -1,1 +1,2 @@
 # Twitter-bot
+As the name implies, this is an simple implementation of a twitter bot. Please read through the comments as you would need to replace the username and password with your username and password. Focus on this import. {import driver = webdriver.Chrome()} If the project doesn't work out of the box, changing that import to {driver = webdriver.ChromiumEdge()} may suffice. If not then you need to download the webdriver version compatible with the output error which displays YOUR current chrome version. You can do that here https://chromedriver.chromium.org/downloads
